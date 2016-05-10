@@ -1,9 +1,15 @@
 .brand_name{
 	text-transform: uppercase;
-	letter-spacing: 1.2px;
+	letter-spacing: 2.4px;
 }
 .brand_name_custom{
     color: #ee4b28;
+}
+
+#footer{
+	padding: 10px;
+	text-transform: uppercase;
+	letter-spacing: 2.4px;
 }
 
 

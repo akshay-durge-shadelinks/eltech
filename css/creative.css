@@ -128,7 +128,7 @@ aside {
     }
 
     .navbar-default .navbar-header .navbar-brand {
-        color: rgba(255,255,255,.7);
+        color: #fff;
     }
 
     .navbar-default .navbar-header .navbar-brand:hover,
@@ -184,6 +184,10 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    -webkit-transition: background 300ms ease-in 200ms; /* property duration timing-function delay */
+    -moz-transition: background 300ms ease-in 200ms;
+    -o-transition: background 300ms ease-in 200ms;    
+    transition: background 300ms ease-in 200ms;
 }
 
 header .header-content {
